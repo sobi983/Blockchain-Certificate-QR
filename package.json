@@ -1,0 +1,25 @@
+{
+  "name": "blockchain-certificate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "deploy": "npx hardhat run --network testnet scripts/deploy.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nomiclabs/hardhat-etherscan": "^3.1.7",
+    "@nomiclabs/hardhat-waffle": "^2.0.5",
+    "@openzeppelin/contracts": "^4.8.2",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "hardhat": "^2.13.0",
+    "mysql2": "^3.2.0",
+    "nodemon": "^2.0.22",
+    "qrcode": "^1.5.1",
+    "web3": "^1.9.0"
+  }
+}
